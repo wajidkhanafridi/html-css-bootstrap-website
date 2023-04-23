@@ -1,0 +1,111 @@
+#top_nav{
+    background-color: #daac00;
+    padding: 0 8%;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+    font-size: 25px;
+    padding-left: 25px;
+}
+#searchbox{
+    background-color: #fcc302;
+    color: white;
+    border: 0px;
+    border-radius: 0;
+    position: relative;
+    left: 47px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+#searchbox::placeholder{
+    color: white;
+}
+#searchbtn{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+    border-radius: 0%;
+}
+/* banner*/
+
+#banner{
+    background-color:#fcc302;
+    padding-bottom: 20px;
+}
+#bannertext h1{
+    color: white;
+    font-size: 70px;
+    margin-top: 100px;
+}
+#bannertext p{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#banner-btn-1{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+}
+#banner-btn-2{
+    color: white;
+    border: 2px solid white;
+    margin-left: 15px;
+}
+
+/* service */
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#service-btn{
+    color: white;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+}
+#service-img{
+    padding: 5%;
+}
+
+#counter-section{
+    background-image: url("../images/dog1.gif");
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-size: cover;
+}
+.counter-icon{
+    font-size: 70px;
+}
+
+/* blog  */
+
+#blog{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#blog-title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#blog-p{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+.article-details{
+   padding: 15px;
+   border: 1px solid rgb(185,185,185);
+   border-top: 0px;
+}
+.article-date, .article-link{
+    color: #00bec9;
+ }
+
+ /* footer*/
+ #footer{
+    background-color: #343434;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
